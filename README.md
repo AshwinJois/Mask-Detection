@@ -2,7 +2,8 @@
 This CNN tells us if a person is wearing  a mask or not!
 
 
-Hello, 
+Hello,
+
 We all know how Deep learning is dominating in the field of Computer Vision!! It is a technique that teaches network to do a specific task. The reason behind so many innovations in these days are because of Deep Learning. Some examples are  driverless cars, voice control on our phones, tablets and TVs. Deep Learning is getting lots of attention and is achieving many tasks which could not be achieved before. 
 Here, I have explained how to detect a Person with and without mask in an image using a Convolutional Neural Network. To make the detections even more attractive I have also used bounding boxes. 
 
@@ -43,8 +44,12 @@ The model was trained for 10 and 15 epochs, the bheavior of Accuracy and Validat
 
 **Output** 
 
+After training I have predicted on few images and have put all of them together. (Chuck the bluish color on the output, the reason behind it is OpenCV uses BGR as its default colour order for images, matplotlib uses RGB. When you display an image loaded with OpenCv in matplotlib the channels will be back to front)
+
 ![IMG_20201107_164410](https://user-images.githubusercontent.com/63425115/98447233-6eb72380-2123-11eb-8a95-48590c158535.jpg)
 
+
+**Thanks**
 
 
 
