@@ -1,5 +1,5 @@
 # Mask-Detection-Using-CNN-and-OpenCV
-This CNN tells us if a person is wearing  a mask or not!
+*This CNN tells us if a person is wearing  a mask or not!*
 
 
 Hello,
