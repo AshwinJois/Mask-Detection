@@ -19,6 +19,8 @@ Architecture of a CNN
 
 A CNN is composed of several kinds of layers: Convolutional Layer, Pooling Layer, Fully connected input layer, Fully connected layer, Fully Connected output layer. Check https://missinglink.ai/guides/convolutional-neural-networks/convolutional-neural-network-architecture-forging-pathways-future/#:~:text=CNN%20architecture%20is%20inspired%20by,or%20feature%20of%20the%20image.  to know in detail.
 
+![LeNet-5-1998](https://user-images.githubusercontent.com/63425115/98447108-95c12580-2122-11eb-8772-342bda44b4d6.png)
+
 
 
 
