@@ -15,22 +15,24 @@ When we look at a picture of an Elephant, we can classify it by looking at the i
 
 
 
-Architecture of a CNN
+**Architecture of a CNN**
 
 A CNN is composed of several kinds of layers: Convolutional Layer, Pooling Layer, Fully connected input layer, Fully connected layer, Fully Connected output layer. Check https://missinglink.ai/guides/convolutional-neural-networks/convolutional-neural-network-architecture-forging-pathways-future/#:~:text=CNN%20architecture%20is%20inspired%20by,or%20feature%20of%20the%20image.  to know in detail.
 
 ![LeNet-5-1998](https://user-images.githubusercontent.com/63425115/98447108-95c12580-2122-11eb-8772-342bda44b4d6.png)
 
-Dataset
+**Dataset**
+
 Whenever we train a Neural Network it is always good to have a suffiecient amount of Dataset. This link https://github.com/prajnasb/observations/tree/master/experiements/data will help you download Images with and without mask.
 While training a Neural Network the dataset is split into Training set and Validation or Test set. Usually 80% of the entire dataset goes to Training set and the remaining 20% goes to Validation set. Check https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7 for more information.
 
 
-Face Detection using OpenCV
+**Face Detection using OpenCV**
+
 OpenCV already contains many pre-trained classifier for face, eyes etc. It comes with a trainer as well as a detector. Here is the link to OpenCV face detection using Haar Cascades https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html. Make sure you download the .xml file.
 
 
-Result Analysis
+**Result Analysis**
 
 The model was trained for 10 and 15 epochs, the bheavior of Accuracy and Validation Accuracy is as shown in the graph below.
 
@@ -38,7 +40,7 @@ The model was trained for 10 and 15 epochs, the bheavior of Accuracy and Validat
 (The model was able to do proper predictions for 10 epochs itself)
 
 
-Output 
+**Output** 
 
 ![IMG_20201107_164410](https://user-images.githubusercontent.com/63425115/98447233-6eb72380-2123-11eb-8a95-48590c158535.jpg)
 
