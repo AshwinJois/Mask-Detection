@@ -10,6 +10,7 @@ Here, I have explained how to detect a Person with and without mask in an image 
 **Understanding Convolutional Neural Network:**
 
 A CNN is a Neural Network used to extract some features of the Image. The CNN is capable of differentiating the images given to it and figure out the unique features in them. CNN takes the Image’s raw pixel data, trains the model and then extracts the features for classification. 
+
 ![1_cot55wd6gdoJlovlCw0AAQ](https://user-images.githubusercontent.com/63425115/98447050-3ebb5080-2122-11eb-8ebf-15d1bd8f8958.png)
 
 When we look at a picture of an Elephant, we can classify it by looking at the identifiable features such as ears, face , trunk, tusks or 4 legs. In a similar way, the computer is able perform image classification by looking for low level features such as edges and curves, and then building up to more abstract concepts through a series of convolutional layers. This is a general overview of what a CNN does. 
