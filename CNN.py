@@ -10,7 +10,7 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras import datasets, layers, models
 
 
-train = ImageDataGenerator(rescale = 1/255) 
+train = ImageDataGenerator(rescale = 1/255) # Dividing each pixel by 255 helps the Neural Network analyse the Image faster
 validation = ImageDataGenerator(rescale = 1/255)
 
 
@@ -51,7 +51,7 @@ print(model.evaluate(train_dataset))
 print(model.evaluate(validation_dataset))
 
 # Plotting Acuracy and Val_Accuracy
-plt.plot(history.history['accuracy'], label='accuracy')
+plt.plot(history.history['accuracy'], label='accuracy') # You can also plot for loss and Val_loss
 plt.plot(history.history['val_accuracy'], label = 'val_accuracy')
 plt.xlabel('Epoch')
 plt.ylabel('Accuracy')
