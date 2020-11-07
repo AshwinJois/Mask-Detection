@@ -45,7 +45,7 @@ The model was trained for 10 and 15 epochs, the behavior of Accuracy and Validat
 
 **Output:** 
 
-After training I have predicted on few images and have put all of them together. (Chuck the bluish color on the output, the reason behind it is OpenCV uses BGR as its default colour order for images, matplotlib uses RGB. When you display an image loaded with OpenCv in matplotlib the channels will be back to front)
+After training I have predicted on few images and have put all of them together. (Ignore the bluish color on the output Images, the reason behind it is OpenCV uses BGR as its default colour order for images, matplotlib uses RGB. When you display an image loaded with OpenCv in matplotlib the channels will be back to front)
 
 ![IMG_20201107_164410](https://user-images.githubusercontent.com/63425115/98447233-6eb72380-2123-11eb-8a95-48590c158535.jpg)
 
