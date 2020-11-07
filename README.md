@@ -36,7 +36,7 @@ OpenCV already contains many pre-trained classifier for face, eyes etc. It comes
 
 **Result Analysis:**
 
-The model was trained for 10 and 15 epochs, the bheavior of Accuracy and Validation Accuracy is as shown in the graph below.
+The model was trained for 10 and 15 epochs, the behavior of Accuracy and Validation Accuracy is as shown in the graph below.
 
 ![abc](https://user-images.githubusercontent.com/63425115/98447193-2861c480-2123-11eb-9dd5-61599a48edb5.JPG)
 
