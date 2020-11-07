@@ -1,5 +1,5 @@
 # Mask-Detection-Using-CNN-and-OpenCV
-The CNN tells us if a person is wearing  a mask or not!
+This CNN tells us if a person is wearing  a mask or not!
 
 
 Hello, 
@@ -37,6 +37,7 @@ OpenCV already contains many pre-trained classifier for face, eyes etc. It comes
 The model was trained for 10 and 15 epochs, the bheavior of Accuracy and Validation Accuracy is as shown in the graph below.
 
 ![abc](https://user-images.githubusercontent.com/63425115/98447193-2861c480-2123-11eb-9dd5-61599a48edb5.JPG)
+
 (The model was able to do proper predictions for 10 epochs itself)
 
 
