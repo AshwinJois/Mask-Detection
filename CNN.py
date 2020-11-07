@@ -15,13 +15,14 @@ train = ImageDataGenerator(rescale = 1/255)
 validation = ImageDataGenerator(rescale = 1/255)
 
 
-train_dataset = train.flow_from_directory('G:/My Projects/computer-vision projects/COVID-19/train/',
+train_dataset = train.flow_from_directory('G:/My Projects/computer-vision/COVID-19/train/',
                                           target_size = (200,200), batch_size = 3, class_mode = 'binary')
-validation_dataset = train.flow_from_directory('G:/My Projects/computer-vision projects/COVID-19/validation/',
+validation_dataset = train.flow_from_directory('G:/My Projects/computer-vision/COVID-19/validation/',
                                           target_size = (200,200), batch_size = 3, class_mode = 'binary')
 
 train_dataset.class_indices
 
+# Network Architecture
 model = tf.keras.models.Sequential([ tf.keras.layers.Conv2D(16,(3,3),activation = 'relu', input_shape = (200,200,3)),
                                     tf.keras.layers.MaxPool2D(2,2),
                                     
