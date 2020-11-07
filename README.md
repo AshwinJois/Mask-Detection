@@ -6,7 +6,7 @@ Hello,
 We all know how Deep learning is dominating in the field of Computer Vision!! It is a technique that teaches network to do a specific task. The reason behind so many innovations in these days are because of Deep Learning. Some examples are  driverless cars, voice control on our phones, tablets and TVs. Deep Learning is getting lots of attention and is achieving many tasks which could not be achieved before. 
 Here, I have explained how to detect a Person with and without mask in an image using a Convolutional Neural Network. To make the detections even more attractive I have also used bounding boxes. 
 
-Understanding Convolutional Neural Network
+##Understanding Convolutional Neural Network
 
 A CNN is a Neural Network used to extract some features of the Image. The CNN is capable of differentiating the images given to it and figure out the unique features in them. CNN takes the Image’s raw pixel data, trains the model and then extracts the features for classification. 
 ![1_cot55wd6gdoJlovlCw0AAQ](https://user-images.githubusercontent.com/63425115/98447050-3ebb5080-2122-11eb-8ebf-15d1bd8f8958.png)
@@ -39,6 +39,8 @@ The model was trained for 10 and 15 epochs, the bheavior of Accuracy and Validat
 
 
 Output 
+
+![IMG_20201107_164410](https://user-images.githubusercontent.com/63425115/98447233-6eb72380-2123-11eb-8a95-48590c158535.jpg)
 
 
 
