@@ -21,6 +21,18 @@ A CNN is composed of several kinds of layers: Convolutional Layer, Pooling Layer
 
 ![LeNet-5-1998](https://user-images.githubusercontent.com/63425115/98447108-95c12580-2122-11eb-8772-342bda44b4d6.png)
 
+Dataset
+Whenever we train a Neural Network it is always good to have a suffiecient amount of Dataset. This link https://github.com/prajnasb/observations/tree/master/experiements/data will help you download Images with and without mask.
+While training a Neural Network the dataset is split into Training set and Validation or Test set. Usually 80% of the entire dataset goes to Training set and the remaining 20% goes to Validation set. Check https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7 for more information.
+
+
+Face Detection using OpenCV
+OpenCV already contains many pre-trained classifier for face, eyes etc. It comes with a trainer as well as a detector. Here is the link to OpenCV face detection using Haar Cascades https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html. Make sure you download the .xml file.
+
+
+Result Analysis
+The model was trained for 10 and 15 epochs, the bheavior of Accuracy and Validation Accuracy is as shown in the graph below.
+
 
 
 
